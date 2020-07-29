@@ -1,5 +1,7 @@
 # F1-2019-Add-on-for-Splunk
-Capture telemetry data from the Codemasters F1 2019 game and send it to Splunk. The add-on takes the binary telemetry data generated from the Formula 1 game which is sent over UDP and then converts to JSON for Splunk ingestion.  The add-on has been tested successfully with the Playstation, Xbox and PC versions of the F1 2019 game.  The add-on has also been tested successfully using a Playstation with Codemasters F1 2020 game when telemetry mode is set to F1 2019
+Capture telemetry data from the Codemasters F1 2019 game and send it to Splunk. The add-on takes the binary telemetry data generated from the Formula 1 game which is sent over UDP and then converts to JSON for Splunk ingestion.  The add-on has been tested successfully with the Playstation, Xbox and PC versions of the F1 2019 game.  The add-on has also been tested successfully using a Playstation with Codemasters F1 2020 game when telemetry mode is set to F1 2019.
+
+Upto date details can be found on the Splunkbase listing [F1 2019 Add-on for Splunk](https://splunkbase.splunk.com/app/4881/)
 
 Splunk Setup
 ============
@@ -67,7 +69,7 @@ The bash command line can be used to send a badly formed UDP message to remote m
 Viewing F1 2019 data
 ====================
 
-The [F1 2019 App for Splunk](https://splunkbase.splunk.com/app/4915/) is a minimal app that contains lookup tables and pre-canned dashboards to optionally view data generated from this add-on.
+The [F1 2019 App for Splunk](https://splunkbase.splunk.com/app/4915/) is a minimal app that contains lookup tables and pre-canned dashboards to optionally view data generated from this add-on. Alternatively look at the [Github "F1 2019 App for Splunk"](https://github.com/mark-sivill-splunk/F1-2019-App-for-Splunk) listing.
 
 Alternatively use the following SPL to start exploring the data -
 
